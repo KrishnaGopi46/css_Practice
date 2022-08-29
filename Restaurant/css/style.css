@@ -1,0 +1,47 @@
+body{
+	background-image:url("../img/home1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+/*header 1*/
+.flexcondainer{
+	display:flex;
+	padding:20px 0 0 250px;	
+}
+.hed1 a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+.hed1 i{
+	color:orange;
+	padding:0 5px 0 0;
+}
+.hed11 span{
+	color:white;
+	font-weight:bold;
+	
+}
+.hed11 i{
+	color:orange;
+	padding:0 5px 0 0;
+	margin-left:50px;
+}
+/*headre 2*/
+.flexcondainer2{
+	display:flex;
+	align-items:center;
+}
+.hed2{
+	color:white;
+	font-weight:bold;
+}
+.hed22 a{
+	color:white;
+	font-weight:bold;
+	padding:10px;
+	text-decoration:none;
+}
+.hed22{
+	padding-left:500px;
+}
