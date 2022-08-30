@@ -50,6 +50,9 @@ header{
 .hed22{
 	padding-left:100px;
 }
+.hed22 a:hover{
+	color:orange;
+}
 .hed2222 a{
 	color:white;
 	border:solid orange 3px;
