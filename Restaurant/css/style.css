@@ -4,6 +4,10 @@ header{
 	background-repeat:no-repeat;
 	height:100vh;
 }
+.container{
+	width:90%;
+	margin:auto;
+}
 /*header 1*/
 .flexcondainer{
 	display:flex;
@@ -104,6 +108,7 @@ header{
 }
 /*body content 1*/
 .flexcondainer5{
+	width:100%;
 	display:flex;
 	background-color:lavender;
 }	
@@ -179,4 +184,44 @@ header{
 }
 .box3:hover{
 	background-color:orange;
+}
+/*menu 1*/
+.bo1{
+	padding:60px 0 0 0;
+}	
+.bo2 a{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	padding:8px 16px 10px 16px;
+	border:2px solid orange;
+	border-radius:50px;
+	margin:0 3px 10px 3px;
+}
+.bo2{
+	text-align:center;
+	padding:0 0 45px 0;
+}
+.bo2 a:hover{
+	background-color:orange;
+	color:white;
+}
+
+.jil{
+	padding:0 0 0 30px;	
+}
+.jil h2{
+		color:orange;
+		font-size: x-large;
+		font-weight: 800;
+}
+.jil p{
+	color:gray;
+}
+.jil span{
+	color:gray;
+}
+.flexcondainer9{
+	display:flex;
+	padding:0 0 60px 0;
 }
