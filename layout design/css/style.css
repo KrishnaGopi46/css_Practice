@@ -4,12 +4,27 @@
 	height:600px;
 	background-color:blue;
 }
+.aaa{
+	border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    margin: 26px 0px 40px 10px;
+}
+.aaa2{
+	border: 1px solid black;
+    width: 70%;
+    height: 50px;
+    background-color:white;
+    margin: 26px 0px 40px 200px;
+}
 .aa1{
 	border:1px solid black;
-	width:80%;
+	width:95%;
 	height:100px;
 	background-color:red;
-	margin:10px 0 0 115px;
+	margin:10px 0 0 35px;
+	display:flex;
 }	
 .aa2{
 	border:1px solid black;
@@ -190,13 +205,202 @@
 	border: 1px solid black;
     width: 90%;
     height: 750px;
-    background-color:green;
+    background-color:yellow;
     margin: 65px 0px 40px 66px;
 }
 .ii3 {
     border: 1px solid black;
     width: 290px;
     height: 221px;
-    background-color: yellow;
+    background-color: gray;
     margin: 15px 17px 18px 65px;
+}
+/*10th layou*/
+.flexcondainer10{
+	border:1px solid black;
+	background-color:green;
+	width:100%;
+	height:500px;
+	margin:80px 0;
+}	
+.jj1 {
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    background-color: skyblue;
+    margin: 50px 0px 42px 70px;
+}
+.jj2{
+	display:flex;
+	border: 1px solid black;
+    width: 90%;
+    height: 250px;
+    background-color:red;
+    margin: 50px 0px 42px 70px;
+}
+.jj3 {
+    border: 1px solid black;
+    width: 290px;
+    height: 221px;
+    background-color: yellow;
+    margin: 15px 17px 18px 28px;
+}
+.jj4 {
+    border: 1px solid black;
+    width: 290px;
+    height: 221px;
+    background-color: yellow;
+    margin: 15px 17px 18px 28px;
+}
+/*11th layou*/
+.flexcondainer11{
+	border:1px solid black;
+	background-color:blue;
+	width:100%;
+	height:500px;
+	margin:80px 0;
+}	
+.kk1 {
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    background-color: green;
+    margin: 50px 0px 42px 70px;
+}
+.kk2{
+	display:flex;
+	border: 1px solid black;
+    width: 90%;
+    height: 250px;
+    background-color:gray;
+    margin: 50px 0px 42px 70px;
+}
+.kk3 {
+    border: 1px solid black;
+    width: 290px;
+    height: 221px;
+    background-color: yellow;
+    margin: 15px 17px 18px 28px;
+}
+.kk4 {
+    border: 1px solid black;
+    width: 290px;
+    height: 221px;
+    background-color: yellow;
+    margin: 15px 17px 18px 28px;
+}
+/*12th layou*/
+.flexcondainer12{
+	border:1px solid black;
+	background-color:orange;
+	width:100%;
+	height:800px;
+	margin:80px 0;
+}
+.ll1 {
+    border: 1px solid black;
+    width: 70%;
+    height: 100px;
+    background-color:white;
+    margin: 26px 0px 40px 200px;
+}	
+.ll2 {
+    border: 1px solid black;
+    width: 90%;
+    height: 80px;
+    background-color:gray;
+    margin: 26px 0px 40px 70px;
+}
+/*13rd layout*/
+.flexcondainer13{
+	display:flex;
+}
+.flexcondainer132{
+	border:1px solid black;
+	width:100%;
+	height:700px;
+	background-color:green;
+	margin:80px 0;
+}
+.mm1 {
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+    margin: 30px 0 0 75px;
+}
+.mm2 {
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+    margin: 30px 0 0 30px;
+}
+
+.mm3 {
+    border: 1px solid black;
+    width: 550px;
+    height: 170px;
+    background-color: red;
+    margin: 15px 0px 30px 25px;
+}
+.pikk{
+	display:flex;
+}	
+.mm4 {
+    border: 1px solid black;
+    background-color: green;
+    width: 268px;
+    height: 150px;
+    display: flex;
+    margin: 0 0 0 20px;
+}	
+.mm5 {
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    background-color:yellow;
+    margin: 26px 0px 40px 70px;
+}	
+/*14th layou*/
+.flexcondainer14{
+	display:flex;
+}
+.flexcondainer15{
+	display:flex;
+}
+.nn3 {
+    border: 1px solid black;
+    width: 290px;
+    height: 400px;
+    background-color: yellow;
+    margin: 15px 17px 18px 28px;
+}
+.pin{
+	border:1px solid black;
+	background-color:blue;
+	width:100%;
+	height:600px;
+	margin:80px 0;
+}
+.nn4 {
+    border: 1px solid black;
+    background-color: green;
+    width: 420px;
+    height: 50px;
+    margin:30px 0 0 25px;
+}	
+.nn5 {
+    border: 1px solid black;
+    background-color: green;
+    width: 420px;
+    height: 50px;
+    margin: 30px 0 0 375px;
+}	
+.pinn {
+    border: 1px solid black;
+    width: 95%;
+    height: 100px;
+    background-color:pink;
+    margin: 50px 0px 42px 35px;
 }
