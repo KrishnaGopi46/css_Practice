@@ -1,0 +1,67 @@
+.a{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:40px 0;
+}	
+/*translate*/			
+.b{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:40px 0;
+	transform:translate(80px,80px)
+}	
+/*rotate*/			
+.c{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:150px 0;
+	transform:rotate(80deg)
+}	
+/*scale*/			
+.d{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:150px 0;
+	transform:scale(0.5,1)
+}	
+/*skew*/			
+.e{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:150px 0 0 150px;
+	transform:skew(56deg,20deg);
+}	
+/*skew*/			
+.e{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:150px 0 0 150px;
+}
+/*matrix*/			
+.f{
+	border:2px solid black;
+	background-color:yellow;
+	width:40vh;
+	height:30vh;
+	text-align:center;
+	margin:150px 0 0 150px;
+	transform: matrix(1, 0, 0.5, 1, 150, 0);
+}		
