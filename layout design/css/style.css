@@ -27,12 +27,19 @@
 	display:flex;
 }	
 .aa2{
-	border:1px solid black;
 	width:50%;
 	height:300px;
-	background-color:yellow;
 	margin:100px 0 0 315px;
+	text-align:center;
 }	
+.aa2 a{
+	text-decoration:none;
+	border:2px solid yellow;
+	border-radius:40px;
+	color:white;
+	padding:10px;
+	margin:0 10px;`
+}
 /*2nd layout*/
 .flexcondainer2{
 	border:1px solid black;
