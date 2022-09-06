@@ -76,7 +76,50 @@
 .clients{
 	width:100%;
 	background-color: #f7f8fa;
+	padding:18px 0;
 }
 .flexcondainer3{
 	display:flex;
+	justify-content:space-between;
+}
+.flexcondainer3 img{
+	width:6%;
+	filter:grayscale(100%);
+}
+/*about section*/
+.about{
+	margin:10vh 0 10vh 0;
+}
+.flexcondainer4{
+	display:flex;
+}
+.a1{
+	width:50%;
+}
+.a1 img{
+	width:566px;
+}
+.a2{
+	padding-left:2%;
+}
+.flexcondainer5{
+	display:flex;
+}
+.a3 h1{
+	font-weight: 700;
+    font-size: 34px;
+    color:black;
+}
+.a3 p{
+	font-size:15px;
+	color: #848484;
+}
+.a5 h2{
+	font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.a5 p{
+	font-size:15px;
+	color: #848484;
 }
