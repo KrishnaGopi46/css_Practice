@@ -96,14 +96,18 @@
 .a1{
 	width:50%;
 }
+.a2 	{
+	width:50%;
+}
 .a1 img{
-	width:566px;
+	width:100%;
 }
 .a2{
 	padding-left:2%;
 }
 .flexcondainer5{
 	display:flex;
+	margin:10px 0 0 0;
 }
 .a3 h1{
 	font-weight: 700;
@@ -111,7 +115,7 @@
     color:black;
 }
 .a3 p{
-	font-size:15px;
+	font-size:18px;
 	color: #848484;
 }
 .a5 h2{
@@ -120,6 +124,32 @@
     margin-top: 5px;
 }
 .a5 p{
-	font-size:15px;
+	font-size:18px;
 	color: #848484;
+}
+.a5 i{
+	font-size:30px;
+	color:#8b97b3;
+}
+/*box section layout*/
+.box-section{
+	margin:10vh 0 10vh 0;
+	background-color:#f7f8fa;
+	padding:40px 0;
+}
+.box-1{
+	position:25%;
+}
+.flexcondainer6{
+	display:flex;
+	justify-content:space-between;
+}
+.box-1 h1{
+	font-size: 48px;
+    color: #414c64;
+}
+.box-1 p{
+	font-size: 14px;
+    color: #414c64;
+	margin:-35px 0 10px 0;
 }
