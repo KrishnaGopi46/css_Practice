@@ -67,9 +67,98 @@
     color: white;
     font-size: x-large;
     font-weight: 500;
-    
-}
-.para{
-    border: 3px solid  #2eca6a;
+    border: 2px solid #2eca6a;
+    margin: 0px 22rem 0px 0px;
+    padding: 15px 35px 15px 23px;
     border-radius: 50px;
+}
+/*our service section*/
+.service{
+    width: 100%;
+    margin-top: 6rem;
+}
+.title h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.title{
+    margin-bottom: 8%;
+}
+.row{
+    display: flex;
+}
+.column{
+    width:31%;
+    padding-right: 4%;
+}
+.col-header{
+    display: flex;
+    align-items: center;
+    border: 4px solid #2eca6a;
+}
+.column h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.column i{
+    font-size: 4rem;
+    font-weight: 700;
+    color:black;
+}
+.column p{
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    color: #555555;
+    font-size: 1.2rem;
+}
+.column a{
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+/*best agents*/
+.agents{
+    width: 100%;
+    margin-top: 8rem;
+}
+.title2 h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.title2 a{
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.flexcondainer3{
+    padding-bottom: 4rem;
+}
+.flexcondainer4{
+    display: flex;
+}
+.image img{
+    width: 100%;
+    gap: 10px;
+}
+/*opacity*/
+.image{
+    position: relative;
+}
+.opa{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #2eca6a;
+    height: 100%;
+    opacity: 0.5;
+    padding: 0 18px;
+}
+.image:hover{   
+
 }
