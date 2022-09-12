@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     width: 85%;
     margin: auto;
@@ -5,9 +10,11 @@
 /*header section*/
 .estate{
     width: 100%;
-    
+    position: fixed;
+    height: 4.5rem;
+    z-index: 100;
     background-color:white;
-    margin-top: -8px;
+    padding-top: 1.5%;
     box-shadow: 1px 2px 15px rgb(100 100 100 / 30%);
 }
 .hed1 h1{
@@ -44,21 +51,25 @@
 }
 .about{
     position: relative;
-   }
+    padding-top: 4rem;
+}
 .content2{
     position: absolute;
-    top: 2rem;
+    top: 6rem;
     left:10rem;
 }
 .content2 p{
     color: white;
     font-size: medium;
     font-weight: 600;
+    margin-top: 3rem;
 }
 .content2 h1{
     color: white;
     font-weight: 700;
     font-size: 3.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .content2 span{
     color: #2eca6a;
@@ -86,6 +97,7 @@
 }
 .row{
     display: flex;
+    justify-content:space-between;
 }
 .column{
     width:31%;
@@ -95,6 +107,8 @@
     display: flex;
     align-items: center;
     border: 4px solid #2eca6a;
+    margin-right: 9rem;
+    padding: 12px 0px 12px 35px;
 }
 .column h1{
     font-size: 2rem;
@@ -109,6 +123,7 @@
     padding: 0.5rem 0.5rem 0 0.5rem;
     color: #555555;
     font-size: 1.2rem;
+    padding: 2rem 0;
 }
 .column a{
     font-weight: 500;
@@ -149,16 +164,17 @@
 /*opacity*/
 .image{
     position: relative;
+    
 }
 .opa{
     position: absolute;
+    height: 100%;
     top: 0;
     right: 0;
+    left: 0;
     background-color: #2eca6a;
-    height: 100%;
-    opacity: 0.5;
-    padding: 0 18px;
+   opacity: 0;
 }
-.image:hover{   
-
+.image:hover .opa{   
+    opacity: 0.7;
 }
