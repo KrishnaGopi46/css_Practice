@@ -158,23 +158,73 @@
     display: flex;
 }
 .image img{
-    width: 100%;
-    gap: 10px;
+    width: 90%;
+    
+}
+.opa h1,p{
+    margin:35px 0 0 35px;
+}
+.opa h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.opa p{
+    color: #555555;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.num p{
+    color:black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.opa span{
+    color: black;
 }
 /*opacity*/
 .image{
-    position: relative;
-    
+   position: relative;     
 }
 .opa{
-    position: absolute;
-    height: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #2eca6a;
-   opacity: 0;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity:0;
+  background-color: #2eca6a;
+  width: 90%;
+  height: 100%;
 }
 .image:hover .opa{   
-    opacity: 0.7;
+    opacity: 0.9;
+    transition: 1.3s all; 
+}
+/*latest properties*/
+.latest{
+    width: 100%;
+    margin-top: 8rem;
+}
+.title3 h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.title3 a{
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.title3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.flexcondainer5{
+    padding-bottom: 4rem;
+}
+.flexcondainer6{
+    display: flex;
+}
+.image2 img{
+    width: 90%;
+
 }
